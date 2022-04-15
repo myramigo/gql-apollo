@@ -1,17 +1,15 @@
 <template>
-<div>
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/about">About</RouterLink>
-  <RouterView />
-</div>
+  <div>
+    <RouterLink to="/">Home</RouterLink> |
+    <RouterLink to="/about">About</RouterLink> |
+    <RouterLink to="/products">Products</RouterLink>
+    <RouterView />
+  </div>
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 
-<style scoped> 
-
+<style scoped>
 </style>
